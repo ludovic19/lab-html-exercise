@@ -121,7 +121,57 @@ input[type=search] {
 }
 
 /*  section explication */
+.explication{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
 .explication img{
     width:200px;
 }
+.explication h2{
+    margin-top: 50px;
+}
+.explication mark{
+    background: #ffebb5;
+}
+.explication p{
+    width: 300px;
+    justify-content: center;
+}
 /*  section details */
+
+section.details{
+    margin-top: 50px;
+}
+.my-articles{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards{
+    width: 200px;
+}
+.cards img{
+    width:30px;
+}
+.details h4{
+    color:#fb3b49
+}
+.details button{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    width: 250px;
+    height: 30px;
+    padding: 2px;
+    margin: 20px 40%;
+    box-shadow: 5px 5px #f8f4f4;
+
+}
+
+
