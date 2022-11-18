@@ -5,11 +5,6 @@ html, body {
     padding: 0;
     font-family: Roboto, arial, sans-serif;
   }
-.all-logos{
-    width:50px;
-  
-    
-}
 .blackHeart{
     width:30px;
 }
@@ -41,12 +36,16 @@ header a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+     
+}
+.search img{
+    width:40px;
 }
 input[type=search] {
     background-color: #F2F2F2;
     border: none;
     padding: 2px;
-    display: inline-block;
+    display: inline;
         
 }
 .search button{
